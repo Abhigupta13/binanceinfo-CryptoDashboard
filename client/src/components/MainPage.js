@@ -44,7 +44,7 @@ const [cryptoData, setCryptoData] = useState([]);
 useEffect(() => {
     async function fetchData() {
       try {
-    const response = await axios.get('http://localhost:8080/api/data')
+    const response = await axios.get('https://binance-server1.onrender.com/api/data')
   
     //   console.log("asset",asset);
         const findMatchingObject = (data, valueToMatch) => {
