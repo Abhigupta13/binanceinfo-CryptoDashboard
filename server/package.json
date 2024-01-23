@@ -8,6 +8,9 @@
     "start": "npx nodemon index.js",
     "build": "npm run build"
   },
+  "engines": {
+    "node": ">=14.18.0 <20.0.0"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
