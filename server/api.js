@@ -49,7 +49,7 @@ async function fetchAndStoreData() {
 
 router.get('/data', async (req, res) => {
     try {
-      const cryptoData = await Crypto.find({}, '-_id -__v');
+      const cryptoData = await Crypto.find({}, '-_id -__v').limit(10);
       res.json(cryptoData);
     } catch (error) {
       console.error('Error fetching data:', error);
