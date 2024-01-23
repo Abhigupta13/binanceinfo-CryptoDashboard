@@ -12,4 +12,9 @@
         "dest": "/"
       }
     ]
+    , "functions": {
+      "api/data": {
+        "maxDuration": 50 
+      }
+    }
   }
