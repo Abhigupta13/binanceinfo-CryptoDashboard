@@ -40,7 +40,6 @@ async function fetchAndStoreData() {
       console.log('Data saved successfully.');
     } catch (error) {
       console.error('Error fetching and storing data:', error);
-      res.status(500).json({ error: 'Error fetching and storing data' });
     } finally {
     //   mongoose.connection.close();
     }
