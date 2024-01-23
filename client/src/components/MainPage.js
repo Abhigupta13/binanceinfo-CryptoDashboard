@@ -44,7 +44,7 @@ const [cryptoData, setCryptoData] = useState([]);
 useEffect(() => {
     async function fetchData() {
       try {
-    const response = await axios.get('https://binance-server-phi8.onrender.com/api/data')
+    const response = await axios.get('https://binanceinfo-crypto-dashboard-y49t.vercel.app/api/data')
   
     //   console.log("asset",asset);
         const findMatchingObject = (data, valueToMatch) => {
